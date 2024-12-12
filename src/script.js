@@ -1,11 +1,13 @@
 // script.js
 
-import { setupCamera } from "../src/camera";
-import { createMediaRecorder } from "../src/mediaRecorder";
-import { capturePhoto } from "../src/photoCapture";
-import { setupRecordingEvents } from "../src/events.js";
-import { createVideoPreview } from "../src/videoPreview.js";
-import { setupPreviewActions } from "../src/previewManager.js";
+import { setupCamera } from "./camera.js";
+import { createMediaRecorder } from "./mediaRecorder.js";
+import { capturePhoto } from "./photoCapture.js";
+import { setupRecordingEvents } from "./events.js";
+import { createVideoPreview } from "./videoPreview.js";
+import { setupPreviewActions } from "./previewManager.js";
+import './style.css';
+
 
 const video = document.getElementById("camera-stream");
 const canvas = document.getElementById("capture-canvas");
