@@ -1,0 +1,27 @@
+{
+  "name": "arcapture_nodejs_202411",
+  "version": "1.0.0",
+  "description": "Node.jsでAR Webアプリのキャプチャ実装の作業用リポジトリ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rensanrenren/arcapture_nodejs_202411.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rensanrenren/arcapture_nodejs_202411/issues"
+  },
+  "homepage": "https://github.com/rensanrenren/arcapture_nodejs_202411#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "vite": "^6.0.1"
+  }
+}
