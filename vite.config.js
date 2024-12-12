@@ -5,4 +5,6 @@ export default defineConfig({
     host: true, // ローカルネットワークアクセスを許可
     port: 3000, // 必要ならポートを変更
   },
+  base: '/<mywebrec>/', // GitHub Pagesでのリポジトリ名に合わせる
 });
+
